@@ -219,6 +219,7 @@
 		1FFFC82F221B0041007D99D2 /* DefaultMoviesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMoviesRepository.swift; sourceTree = "<group>"; };
 		1FFFC830221B0041007D99D2 /* MoviesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesRepository.swift; sourceTree = "<group>"; };
 		1FFFC83D221B02BA007D99D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ExampleMVVMTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		4671F4DA2A14F64600D484AB /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		6C0F72E129CF0F5A0005020A /* DispatchQueueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueType.swift; sourceTree = "<group>"; };
 		6C0F72E429CF12180005020A /* DispatchQueueTypeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueTypeMock.swift; sourceTree = "<group>"; };
 		FC2B715B2156FF93002BD59E /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
@@ -450,6 +451,7 @@
 		1FA53380201E1FDE00747E55 = {
 			isa = PBXGroup;
 			children = (
+				4671F4DA2A14F64600D484AB /* Config.xcconfig */,
 				1FA5338B201E1FDE00747E55 /* ExampleMVVM */,
 				1FA533A0201E1FDE00747E55 /* ExampleMVVMTests */,
 				1F02DE3322F8507500E40C3A /* ExampleMVVMUITests */,
@@ -1184,6 +1186,7 @@
 		};
 		1FA533A4201E1FDE00747E55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4671F4DA2A14F64600D484AB /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;

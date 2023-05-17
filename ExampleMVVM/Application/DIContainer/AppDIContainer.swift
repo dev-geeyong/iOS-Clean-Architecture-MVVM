@@ -6,6 +6,7 @@ final class AppDIContainer {
     
     // MARK: - Network
     lazy var apiDataTransferService: DataTransferService = {
+        print("->appConfiguration.apiKey",appConfiguration.testkey)
         let config = ApiDataNetworkConfig(
             baseURL: URL(string: appConfiguration.apiBaseURL)!,
             queryParameters: [
